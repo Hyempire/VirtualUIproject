@@ -13,8 +13,6 @@ GameObject:
   - component: {fileID: 4927691264092278094}
   - component: {fileID: 4927691264092278091}
   - component: {fileID: 4927691264092278092}
-  - component: {fileID: 4927691264092278090}
-  - component: {fileID: 6732970480866421025}
   m_Layer: 0
   m_Name: Folder 1
   m_TagString: Folder
@@ -123,32 +121,6 @@ MonoBehaviour:
   onHoverExited:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &4927691264092278090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4927691264092278081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a185129fd60d1ec4f843cf409d9c13d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab_: {fileID: 4927691264092278081}
---- !u!114 &6732970480866421025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4927691264092278081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f880f30e6f8c76248b16e34824a6f9dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isFileEnter: 0
 --- !u!1 &4927691264928065722
 GameObject:
   m_ObjectHideFlags: 0
