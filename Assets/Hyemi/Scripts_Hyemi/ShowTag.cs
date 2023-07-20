@@ -27,6 +27,7 @@ public class ShowTag : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // 아이콘과 카메라의 벡터의 각도 차이
         angle = Vector3.Angle(iconObject.transform.TransformDirection(Vector3.right), mainCamera.transform.TransformDirection(Vector3.right));
         debugText.text = angle.ToString();
 
